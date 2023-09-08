@@ -26,7 +26,7 @@ fun main(args: Array<String>) {
 //----------------------------
 
 // Задача 6
-    val myDetails:String = "Привет, меня зовут " + fullName
+    val myDetails:String = "Привет, меня зовут $fullName" 
 //------------------------
 
 //Задача 7
@@ -40,14 +40,11 @@ fun main(args: Array<String>) {
 //---------------------
 
 //Задача 9
-    val month1 = Triple.first
-    val year1 = Triple.third
-    println(month1)
-    println()
-    println(year1)
+   val date = Pair(month, year)
+    println(month+"\n\n"+year)
 //----------------
 
 //Задача 10
-    val Pair:Pair<Int, Int> = Pair(month1+3, year1)
+     val Pair: Pair<Int, Int>  = Pair(5,year);
 //-------------------------------------
 }
