@@ -41,7 +41,7 @@ fun main(args: Array<String>) {
 
 //Задача 9
    val date = Pair(month, year)
-    println(month+"\n\n"+year)
+    println("${date.first}" + "\n\n" + "${date.second}")
 //----------------
 
 //Задача 10
